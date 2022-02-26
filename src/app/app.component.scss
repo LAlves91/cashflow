@@ -1,0 +1,19 @@
+:host, main, .faux-body {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+:host {
+  width: 100%;
+  height: 100%;
+  align-items: stretch;
+}
+
+.faux-body {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+main {
+  overflow: auto;
+}
